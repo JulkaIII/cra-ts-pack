@@ -1,9 +1,9 @@
 {
   "name": "cra-ts-pack",
-  "version": "1.0.4",
-  "main": "dist/index.ts",
-  "module": "dist/index.ts",
-  "types": "dist/index.d.ts",
+  "version": "1.0.5",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/types/index.d.ts",
   "files": [
     "dist",
     "README.md"
@@ -24,7 +24,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
+    "build": "rm -rf dist && tsc",
+    "build:old": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

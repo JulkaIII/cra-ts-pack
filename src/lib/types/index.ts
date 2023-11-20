@@ -1,4 +1,4 @@
 // export { TSayHelloProps } from "../features/sayHello/types";
-export type TSayHelloProps = {
+export type TSharedProps = {
   name: string;
 };
