@@ -1,8 +1,8 @@
 {
   "name": "cra-ts-pack",
-  "version": "1.0.3",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
+  "version": "1.0.4",
+  "main": "dist/index.ts",
+  "module": "dist/index.ts",
   "types": "dist/index.d.ts",
   "files": [
     "dist",
