@@ -24,7 +24,6 @@
 
 {
   "include": ["src/lib"],
-  "exclude": ["node_modules", "dist"],
   "compilerOptions": {
     "lib": ["ESNext"],
     "module": "ESNext",
