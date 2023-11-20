@@ -31,7 +31,7 @@
     // "sourceMap": true,
     "importHelpers": true,
     "declaration": true,
-    "rootDir": "./src",
+    "rootDir": "./src/lib",
     "outDir": "./dist",
     "strict": true,
     "noImplicitReturns": true,
